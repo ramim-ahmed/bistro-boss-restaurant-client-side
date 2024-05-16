@@ -8,7 +8,7 @@ import slideFive from "../assets/home/05.png";
 import slideSix from "../assets/home/06.png";
 export default function Banner() {
   return (
-    <div>
+    <div className="">
       <Carousel centerMode>
         <div>
           <img src={slideOne} />

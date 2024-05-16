@@ -1,6 +1,6 @@
 import { CgMenuLeftAlt } from "react-icons/cg";
 import { NavLink } from "react-router-dom";
-// import logo from "../assets/top-bar-logo.png";
+import logo from "../assets/top-bar-logo.png";
 import {
   Sheet,
   SheetClose,
@@ -67,7 +67,9 @@ export default function Nav() {
                 </SheetContent>
               </Sheet>
             </div>
-            <h1>Bistro Boss</h1>
+            <div>
+              <img className="w-32" src={logo} alt="" />
+            </div>
           </div>
           <div className="flex items-center space-x-5">
             <div className="space-x-5 hidden lg:block">{navItem}</div>
