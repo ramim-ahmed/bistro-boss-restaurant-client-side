@@ -1,5 +1,4 @@
 import RootLayout from "@/layouts/RootLayout";
-import Contact from "@/pages/Contact";
 import Home from "@/pages/Home";
 import Login from "@/pages/Login";
 import Menu from "@/pages/Menu";
@@ -24,10 +23,6 @@ const routes = createBrowserRouter([
       {
         path: "/shop",
         element: <Shop />,
-      },
-      {
-        path: "/contact-us",
-        element: <Contact />,
       },
       {
         path: "/login",

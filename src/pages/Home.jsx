@@ -1,6 +1,7 @@
 import About from "@/components/About";
 import Banner from "@/components/Banner";
 import Categories from "@/components/Categories";
+import ContactUs from "@/components/ContactUs";
 import OurMenu from "@/components/OurMenu";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       <Categories />
       <About />
       <OurMenu />
+      <ContactUs />
     </div>
   );
 }
