@@ -13,7 +13,7 @@ import { Button } from "./ui/button";
 
 export default function Categories() {
   return (
-    <div className="max-w-screen-xl mx-auto px-3 py-20">
+    <div className="max-w-screen-xl mx-auto py-20 px-3">
       <div className="flex justify-center pb-10">
         <SectionHeading
           subHeading="---From 11:00am to 10:00pm---"
@@ -23,7 +23,6 @@ export default function Categories() {
       <div>
         <Swiper
           slidesPerView={4}
-          spaceBetween={10}
           pagination={{
             clickable: true,
           }}
@@ -31,50 +30,65 @@ export default function Categories() {
           className="mySwiper"
         >
           <SwiperSlide>
-            <div className="relative m-2">
+            <div className="relative">
               <img src={slideOne} alt="" className="w-full object-cover" />
               <div className="flex justify-center">
-                <Button variant="outline" className="w-48 absolute bottom-10">
+                <Button
+                  variant="outline"
+                  className="lg:w-48 absolute bottom-10"
+                >
                   SALADS
                 </Button>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="relative m-2">
+            <div className="relative">
               <img src={slideTwo} alt="" className="w-full object-cover" />
               <div className="flex justify-center">
-                <Button variant="outline" className="w-48 absolute bottom-10">
+                <Button
+                  variant="outline"
+                  className="lg:w-48 absolute bottom-10"
+                >
                   SOUPS
                 </Button>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="relative m-2">
+            <div className="relative">
               <img src={slideThree} alt="" className="w-full object-cover" />
               <div className="flex justify-center">
-                <Button variant="outline" className="w-48 absolute bottom-10">
+                <Button
+                  variant="outline"
+                  className="lg:w-48 absolute bottom-10"
+                >
                   DESSERTS
                 </Button>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="relative m-2">
+            <div className="relative">
               <img src={slideFour} alt="" className="w-full object-cover" />
               <div className="flex justify-center">
-                <Button variant="outline" className="w-48 absolute bottom-10">
+                <Button
+                  variant="outline"
+                  className="lg:w-48 absolute bottom-10"
+                >
                   SALADS
                 </Button>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="relative m-2">
+            <div className="relative">
               <img src={slideFive} alt="" className="w-full object-cover" />
               <div className="flex justify-center">
-                <Button variant="outline" className="w-48 absolute bottom-10">
+                <Button
+                  variant="outline"
+                  className="lg:w-48 absolute bottom-10"
+                >
                   SALADS
                 </Button>
               </div>

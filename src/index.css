@@ -4,6 +4,9 @@
 .inter-font {
   font-family: "Inter", sans-serif;
 }
+.cinzel-font {
+  font-family: "Cinzel", serif;
+}
 @layer base {
   :root {
     --background: 0 0% 100%;
