@@ -69,6 +69,7 @@ export default function Nav() {
             </div>
             <div>
               <img className="w-32" src={logo} alt="" />
+              <h1>Hello world</h1>
             </div>
           </div>
           <div className="flex items-center space-x-5">
