@@ -30,7 +30,7 @@ export default function Categories() {
           className="mySwiper"
         >
           <SwiperSlide>
-            <div className="relative">
+            <div className="relative mr-4">
               <img src={slideOne} alt="" className="w-full object-cover" />
               <div className="flex justify-center">
                 <Button
@@ -43,7 +43,7 @@ export default function Categories() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="relative">
+            <div className="relative  mr-4">
               <img src={slideTwo} alt="" className="w-full object-cover" />
               <div className="flex justify-center">
                 <Button
@@ -56,7 +56,7 @@ export default function Categories() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="relative">
+            <div className="relative mr-4">
               <img src={slideThree} alt="" className="w-full object-cover" />
               <div className="flex justify-center">
                 <Button
@@ -69,7 +69,7 @@ export default function Categories() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="relative">
+            <div className="relative mr-4">
               <img src={slideFour} alt="" className="w-full object-cover" />
               <div className="flex justify-center">
                 <Button
@@ -82,7 +82,7 @@ export default function Categories() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="relative">
+            <div className="relative mr-4">
               <img src={slideFive} alt="" className="w-full object-cover" />
               <div className="flex justify-center">
                 <Button
